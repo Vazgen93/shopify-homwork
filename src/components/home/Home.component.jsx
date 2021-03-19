@@ -10,7 +10,7 @@ const CategoriseLink = (props) => {
         <Link to={url} >
         <div  className="home__categories-link">
             <img src={imgUrl} alt={title}/>
-            <span>{title}</span>
+            <span>{title} <br/> SHOP NOW</span>
         </div>
         </Link>
 
